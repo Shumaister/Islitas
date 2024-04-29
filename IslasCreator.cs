@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Islitas;
 
 public static class IslasCreator
@@ -18,7 +13,7 @@ public static class IslasCreator
         {
             for (int j = 0; j < yAxis; j++)
             {
-                mapa[i, j] = rnd.Next(10, 40) < 15 ? 1 : 0;
+                mapa[i, j] = rnd.Next(10, 25) < 15 ? 1 : 0;
             }
         }
 
